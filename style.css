@@ -1,0 +1,24 @@
+#grid { 
+    display: grid;
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(203, 201, 201);
+    border-color: black;
+    border: 2px;
+
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    
+}
+
+.gridCell {
+    display: grid;
+    background-color: white;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 16px;
+    height: 16px;
+}
